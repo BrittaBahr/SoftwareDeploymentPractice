@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "applicationinsights": "^1.8.8",
     "express": "^4.17.1",
     "junit": "^1.4.9",
     "mocha-junit-reporter": "^2.0.0"
