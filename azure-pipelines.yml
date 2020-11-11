@@ -27,3 +27,20 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: 'test-results.xml'
     searchFolder: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Lab2/myapp'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Azure for Students(37642ac4-20f6-40ad-9628-6dcf1d80c04e)'
+    appType: 'webApp'
+    appName: 'webApp-v4rpnkupfs4zw'
+    deployToSlotOrASE: true
+    resourceGroupName: 'lab2-resource'
+    slotName: 'production'
+    package: '$(System.DefaultWorkingDirectory)/Lab2/myapp/*.zip'
+    deploymentMethod: 'auto'
