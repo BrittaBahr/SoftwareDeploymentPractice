@@ -30,7 +30,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Lab2/myapp'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
