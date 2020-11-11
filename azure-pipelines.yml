@@ -38,7 +38,7 @@ steps:
   inputs:
     azureSubscription: 'Azure for Students(37642ac4-20f6-40ad-9628-6dcf1d80c04e)'
     appType: 'webApp'
-    appName: 'webApp-v4rpnkupfs4zw'
+    appName: 'myappbahrbitta'
     deployToSlotOrASE: true
     resourceGroupName: 'lab2-resource'
     slotName: 'production'
