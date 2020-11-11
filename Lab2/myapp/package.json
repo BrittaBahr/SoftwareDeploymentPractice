@@ -6,10 +6,12 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "mocha": "^8.2.1"
   },
-  "author": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Britta Bahr",
   "license": "ISC"
 }
