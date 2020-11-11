@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    npm test
   workingDirectory: '$(Build.SourcesDirectory)/Lab2'
   displayName: 'npm install and build'
