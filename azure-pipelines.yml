@@ -21,3 +21,9 @@ steps:
     npm test
   workingDirectory: '$(Build.SourcesDirectory)/Lab2/myapp'
   displayName: 'npm install and build'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'test-results.xml'
+    searchFolder: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
