@@ -30,7 +30,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Lab2/myapp'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
@@ -38,9 +38,9 @@ steps:
   inputs:
     azureSubscription: 'Azure for Students(37642ac4-20f6-40ad-9628-6dcf1d80c04e)'
     appType: 'webApp'
-    appName: 'webApp-v4rpnkupfs4zw'
+    appName: 'myappbahrbitta'
     deployToSlotOrASE: true
     resourceGroupName: 'lab2-resource'
     slotName: 'production'
-    package: '$(System.DefaultWorkingDirectory)/Lab2/myapp/*.zip'
+    package: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
     deploymentMethod: 'auto'
