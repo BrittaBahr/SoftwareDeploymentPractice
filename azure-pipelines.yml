@@ -44,3 +44,4 @@ steps:
     slotName: 'production'
     package: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
     deploymentMethod: 'auto'
+    customWebConfig: '-Handler iisnode -NodeStartFile index.js -appType node'
