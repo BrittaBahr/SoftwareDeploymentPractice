@@ -19,13 +19,13 @@ steps:
     npm install
     chmod 0777 ./node_modules/.bin/mocha
     npm test
-  workingDirectory: '$(Build.SourcesDirectory)/Lab2/myapp'
+  workingDirectory: '$(Build.SourcesDirectory)/Lab2/myap'
   displayName: 'npm install and build'
 
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: 'test-results.xml'
+    testResultsFiles: 'test-result.xml'
     searchFolder: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
 
 - task: PublishBuildArtifacts@1
