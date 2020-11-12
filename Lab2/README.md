@@ -27,6 +27,8 @@ Test ist fehlgeschlagen:
 
  ![release pipeline](Pictures/release_pipeline.PNG)
 
+  ![release pipeline job and task](Pictures/release_pipeline_job_task.PNG)
+
 ## Dokumentation Release: 
 
 Einen neuen Release erzeugen: 
