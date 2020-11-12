@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites name="Mocha Tests" time="0.0000" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-11-11T11:11:22" tests="0" time="0.0000" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-12T08:34:41" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Array" timestamp="2020-11-11T11:11:22" tests="0" file="C:\Users\britt\Desktop\FHWN\SoftwareDeploymentPractice\Lab2\myapp\test\test.js" time="0.0000" failures="0">
+  <testsuite name="Array" timestamp="2020-11-12T08:34:41" tests="0" file="C:\Users\britt\Desktop\FHWN\SoftwareDeploymentPractice\Lab2\myapp\test\test.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="#indexOf()" timestamp="2020-11-11T11:11:22" tests="1" file="C:\Users\britt\Desktop\FHWN\SoftwareDeploymentPractice\Lab2\myapp\test\test.js" time="0.0000" failures="0">
+  <testsuite name="#indexOf()" timestamp="2020-11-12T08:34:41" tests="1" file="C:\Users\britt\Desktop\FHWN\SoftwareDeploymentPractice\Lab2\myapp\test\test.js" time="0.0000" failures="0">
     <testcase name="Array #indexOf() should return -1 when the value is not present" time="0.0000" classname="should return -1 when the value is not present">
     </testcase>
   </testsuite>
