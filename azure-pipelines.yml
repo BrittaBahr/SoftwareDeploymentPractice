@@ -26,7 +26,7 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: 'test-result.xml'
-    searchFolder: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
+    searchFolder: '$(System.DefaultWorkingDirectory)/Lab2/myap'
 
 - task: PublishBuildArtifacts@1
   inputs:
