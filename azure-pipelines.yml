@@ -37,10 +37,10 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure for Students(37642ac4-20f6-40ad-9628-6dcf1d80c04e)'
-    appType: 'webApp'
-    appName: 'myappbahrbritta'
+    appType: 'webAppLinux'
+    appName: 'mywebappbahr'
     deployToSlotOrASE: true
-    resourceGroupName: 'lab2-resource'
+    resourceGroupName: 'bahr-britta-lab2'
     slotName: 'production'
     package: '$(System.DefaultWorkingDirectory)/Lab2/myapp'
     deploymentMethod: 'auto'
