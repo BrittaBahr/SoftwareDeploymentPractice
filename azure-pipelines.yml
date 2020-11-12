@@ -37,7 +37,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure for Students(37642ac4-20f6-40ad-9628-6dcf1d80c04e)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     appName: 'myappbahrbritta'
     deployToSlotOrASE: true
     resourceGroupName: 'lab2-resource'
