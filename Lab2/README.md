@@ -8,7 +8,7 @@ production:
 
 ##### erfolgreiches Deployment: 
 
- ![deployment without fail](/Pictures/deploy_without_fail.png)
+ ![deployment without fail](Pictures/deploy_without_fail.PNG)
 
 
 #### Schreenshot der Azure DevOps Release Pipeline
