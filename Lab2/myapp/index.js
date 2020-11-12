@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const appInsights = require('applicationinsights');
-appInsights.setup('de60db2f-7d13-4fcc-9ada-7473c3d58a48').start();
+appInsights.setup('973b1381-913d-4f9f-b8a0-9ca04e2085ca').start();
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
