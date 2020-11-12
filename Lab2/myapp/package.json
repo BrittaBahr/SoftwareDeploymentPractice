@@ -13,7 +13,7 @@
     "mocha": "^8.2.1"
   },
   "scripts": {
-    "test": "mocha" 
+    "test": "mocha test --reporter mocha-junit-reporter"
   },
   "author": "Britta Bahr",
   "license": "ISC"
