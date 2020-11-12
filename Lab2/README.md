@@ -20,12 +20,28 @@ Deployment ist fehlgeschlagen:
 
 Test ist fehlgeschlagen: 
 
+ ![test with fail](Pictures/test_with_fail.PNG)
+
 
 #### Schreenshot der Azure DevOps Release Pipeline
 
+ ![release pipeline](Pictures/release_pipeline.PNG)
 
 #### Dokumentation Release: 
 
+Einen neuen Release erzeugen: 
+
+ ![release created](Pictures/create_release.PNG)
+
+Dannach müssen wir den Release bestätigen: 
+
+ ![release approved](Pictures/release_approved.PNG)
+
+ Dannach ist der Release erfolgreich: 
+
+  ![release succeeded](Pictures/release_succeeded.PNG)
 
 #### Application Insights
 Meine Deployment web app ist mit Application Insights verbunden: 
+
+ ![Application Insights](Pictures/app_insights.PNG)
