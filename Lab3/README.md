@@ -20,6 +20,6 @@ Mit dem Command: `docker-compose -d` starte ich den Docker Container. Somit kann
 
 2. Das gleiche machen wir im Ordner "wp" und führen hier den Befehl `docker build -t wp .` aus.
 
-3. Als letzten Schritt: Gehe wieder über das Terminal in den Ordner, wo sich die 'docker-compose.yaml' Datei befindet und führe folgenden Befehl aus: `docker-compose up -d`.
+3. Als letzten Schritt: Gehe wieder über das Terminal in den Ordner, wo sich die `docker-compose.yaml` Datei befindet und führe folgenden Befehl aus: `docker-compose up -d`.
 
 4. Die Seite kann nun unter localhost:80 erreicht werden.
