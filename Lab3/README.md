@@ -6,7 +6,7 @@ Mit dem Command: 'docker-compose -d' starte ich den Docker Container. Somit kann
 
 ## Part 2
 
-Die wichtige Bestandteile: 
+#####Die wichtige Bestandteile: 
 -) init.sql -> Die Datei ist für das generieren der Datenbank.
 
 -) Dockerfile -> Zuerst wird das System aktualisiert und dann anschließend SQL installiert.
