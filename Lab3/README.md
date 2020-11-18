@@ -12,8 +12,7 @@ Die wichtige Bestandteile:
 -) Dockerfile -> Zuerst wird das System aktualisiert und dann anschließend SQL installiert.
    Dannach setztn wir die notwendigen Umgebungsvariabeln
 
--) docker-entypoint.sh -> Das Skript setzt die SQL-Konfigurationsdatei unter Verwendung der
-   Umgebungsvariablen aus dem "Dockerfile".
+-) docker-entypoint.sh -> Das Skript setzt die SQL-Konfigurationsdatei unter Verwendung Umgebungsvariablen aus dem "Dockerfile".
 
 ### Deployment
 
