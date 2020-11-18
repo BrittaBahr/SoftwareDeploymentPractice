@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-ENV DB_NAME=softwareDeployment
+ENV DB_NAME=softwareDeploymentlab3
 ENV DB_USER=brittabahr
 ENV DB_PASSWORD=superGeheim123
 
@@ -17,4 +17,4 @@ RUN ./secure_install.sh
 
 ENTRYPOINT ./docker-entrypoint.sh
 
-EXPOSE 8500
+EXPOSE 8500/tcp

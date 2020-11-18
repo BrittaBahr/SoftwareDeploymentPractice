@@ -5,7 +5,7 @@ services:
   db:
     build: ./mySQL
     ports:
-      - "8500:3500"
+      - "8500:8500"
     volumes:
       - type: volume
         source: db_data
