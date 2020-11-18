@@ -14,4 +14,4 @@ RUN cp -R /usr/share/wordpress/* /var/www/html/
 COPY docker-entrypoint.sh docker-entrypoint.sh
 
 ENTRYPOINT ./docker-entrypoint.sh
-EXPOSE 80/tcp
+EXPOSE 80

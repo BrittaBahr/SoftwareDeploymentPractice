@@ -17,4 +17,4 @@ RUN ./secure_install.sh
 
 ENTRYPOINT ./docker-entrypoint.sh
 
-EXPOSE 8500/tcp
+EXPOSE 3306

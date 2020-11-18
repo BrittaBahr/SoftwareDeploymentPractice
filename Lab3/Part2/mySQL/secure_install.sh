@@ -2,6 +2,8 @@
 
 apt-get -y install expect
 
+MYSQL_ROOT_PASSWORD=superGeheim123
+
 SECURE_MYSQL=$(expect -c "
 set timeout 10
 spawn mysql_secure_installation
