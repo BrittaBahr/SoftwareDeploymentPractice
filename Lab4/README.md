@@ -25,6 +25,7 @@ Now we are creating a secret:
 In the next step, you have to upload the mysql.yaml and the wordpress.yaml file using the Azure cloud console. But at first, you need to connect to the recently created cluster.
 
 `az account set --subscription [your subscription id]`
+
 `aks get-credentials --resource-group lab4-res --name aks-bahr-britta`
 
 Then with the following command, you are able to upload both files.
