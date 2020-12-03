@@ -34,3 +34,5 @@ Then with the following command, you are able to upload both files.
 At last, we want the external IP of Wordpress:
 
 `kubectl get services wordpress`
+
+ ![aks cluster](cluster.JPG)
