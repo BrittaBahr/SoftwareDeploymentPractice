@@ -26,7 +26,7 @@ In the next step, you have to upload the mysql.yaml and the wordpress.yaml file 
 
 `az account set --subscription [your subscription id]`
 
-`aks get-credentials --resource-group lab4-res --name aks-bahr-britta`
+`az aks get-credentials --resource-group lab4-res --name aks-bahr-britta`
 
 Then with the following command, you are able to upload both files.
 
